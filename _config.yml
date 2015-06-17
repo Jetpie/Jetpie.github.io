@@ -1,14 +1,55 @@
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+# Github Default
+# highlighter: pygments
+# github: [Repository metadata]
+
+# Github Configuration Overrides
+# safe: true
+# lsi: false
+# source: your top-level directory
+
+##################################################
+#                             GLOBAL CONFIGURATION
+##################################################
+## Time Zone
+# Set the time zone for site generation. This sets the TZ environment variable,
+# which Ruby uses to handle time and date creation and manipulation.
+# Any entry from the IANA Time Zone Database is valid, e.g. America/New_York.
+# A list of all available values can be found here. The default is the
+# local time zone, as set by your operating system.
+timezone: Asia/Shanghai
+
+## Encoding
+encoding: utf-8
+
+## Exclude
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+##################################################
+#                            SERVE COMMAND OPTIONS
+##################################################
+## Base URL
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+
+
+# Site settings
+
+title: Bingqing Qu
+
+email: sylar.qu@gmail.com
+
+description: > # this means to ignore newlines until "baseurl:"
+    A Machine Learner.
+
+
+
+
+url: "http://jetpie.github.io" # the base hostname & protocol for your site
+
+twitter_username:
+github_username:  jetpie
 
 # Build settings
 markdown: kramdown
