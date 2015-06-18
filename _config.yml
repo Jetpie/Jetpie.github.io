@@ -53,3 +53,14 @@ github_username:  jetpie
 
 # Build settings
 markdown: kramdown
+
+defaults:
+    -
+      scope:
+        path: "_posts"
+        type: "posts"
+
+      values:
+        layout: "post"
+        author: "Bingqing Qu"
+# permalink: /:categories/:year/:month/:day/:title.html
