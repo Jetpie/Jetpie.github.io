@@ -2,7 +2,13 @@
 <html>
 
   {% include head.html %}
-
+<!-- kramdown already support mathjax
+<div class="content">
+  {% if page.mathjax %}
+  {% include mathjax.html %}
+  {% endif %}
+</div>
+-->
   <body>
 
     {% include header.html %}
@@ -16,5 +22,6 @@
     {% include footer.html %}
 
   </body>
+
 
 </html>

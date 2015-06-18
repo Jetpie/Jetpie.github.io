@@ -7,3 +7,4 @@ categories: general
 ---
 # A Hello World Title
 And the content
+$$\alpha = 1$$
