@@ -32,21 +32,24 @@ exclude:
 ##################################################
 ## Base URL
 baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://jetpie.github.io" # the base hostname & protocol for your site
 
+##################################################
+#                                   SITE SETTINGS
+##################################################
 
-# Site settings
-
-title: Bingqing Qu
+title: Qu B's  Workspace
+name: Bingqing Qu
 
 email: sylar.qu@gmail.com
 
 description: > # this means to ignore newlines until "baseurl:"
-    A Machine Learner.
+    An Machine Learner
 
 
 
 
-url: "http://jetpie.github.io" # the base hostname & protocol for your site
+
 
 twitter_username:
 github_username:  jetpie
